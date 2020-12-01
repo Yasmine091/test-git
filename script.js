@@ -1,5 +1,5 @@
 function song() {
-    return 'WAKE ME UP!';
+    return 'BRING ME TO LIFE!';
 }
 
 console.log(song());
