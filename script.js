@@ -1,5 +1,5 @@
 function song() {
-    return 'BRING ME TO LIFE!';
+    return 'My inmortal';
 }
 
 console.log(song());
