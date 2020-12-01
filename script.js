@@ -15,3 +15,9 @@ function song3() {
 }
 
 console.log(song3());
+
+function song4() {
+    return 'Good enough';
+}
+
+console.log(song4());
