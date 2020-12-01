@@ -12,3 +12,34 @@ Les contraintes :
 - mergez vos dev dans master et mettez les à dispo des autres (vous allez devoir pull/push réguilièrement)
 - refaites une branche
 - recommencez
+
+## CLI
+
+```
+//Récupérer le projet initial
+git clone /adresse du projet
+
+//Créer une nouvelle branche
+git branch newbranch
+//Aller sur ma branche
+git checkout newbranch
+
+//Faire mes modifications, les ajouter sur ma branche
+
+git add
+git commit
+git push
+ 
+//Passer sur la branche master et merge ma branche
+git checkout master
+git merge master newbranch
+
+git push (??)
+//Se mettre à jour sur le projet
+git pull
+//Eventuellement supprimer sa branche
+git branch -D newbranch
+
+Recommencer et rester calme !!
+
+```
