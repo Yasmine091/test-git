@@ -25,18 +25,16 @@ git branch newbranch
 git checkout newbranch
 
 //Faire mes modifications, les ajouter sur ma branche
-
 git add
 git commit
 git push
  
-//Passer sur la branche master et merge ma branche
+//Passer sur la branche master et me mettre à jour
 git checkout master
-git merge master newbranch
-
-git push (??)
-//Se mettre à jour sur le projet
 git pull
+//Merge ma branche et ajouter les modifications
+git merge master newbranch
+git push
 //Eventuellement supprimer sa branche
 git branch -D newbranch
 
